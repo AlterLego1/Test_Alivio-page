@@ -69,4 +69,13 @@
     .header__nav {
         display: none;
 }
+    .logo{
+        margin: 0 35px 0;
+}
+    .btn{
+        width: 100px;
+    }
+    .btn-signin{
+        width: 75px;
+    }
 }
