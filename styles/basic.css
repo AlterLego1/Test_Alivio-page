@@ -12,12 +12,12 @@ body{
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 10px 0;
-    background-color: rgb(165, 165, 255);
 }
 
 .logo{
     width: 80px;
     height: 24px;
+    flex-shrink: 0;
 }
 
 ul{
@@ -48,4 +48,10 @@ a{
     background-color: transparent;
     color: var(--color-black);
     width: 140px;
+}
+
+.btn:hover,
+.btn:focus-visible{
+    outline: 2px solid var(--color-dark-green);
+    cursor: pointer;
 }
